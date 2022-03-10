@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #d3171e;
+    padding: 2rem;
+    margin: 0;
+}
+
+.landing {
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.hero {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.25rem;
+}
+
+.scroll-button {
+    padding: 0.5rem 4rem;
+    margin: 0 3rem;
+    font-size: 2rem;
+    background-color: #d3171e;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.second-head {
+    text-align: center;
+}
+
+.hero-image {
+    width: 100vw;
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+.visit {
+    display: flex;
+    margin: 10px 0;
+}
+
+.stay {
+    display: flex;
+    margin: 10px 0;
+}
+
+.eat {
+    display: flex;
+    margin: 10px 0;
+}
