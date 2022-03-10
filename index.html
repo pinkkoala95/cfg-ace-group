@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"/>
+    <script src="script.js"></script>
+  </head>
+
+
+
+  <body>
+
+    <header>
+       
+      <div class="header-container">
+        <div class="dropbtn header-item">About North West Escapes</div>
+        <div class="dropbtn header-item">Our ethos</div>
+        <div class="dropbtn header-item">Become a member</div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Our locations</button>
+            <div class="dropdown-content">
+              <a href="./Chester.html">Chester</a>
+              <a href="#">Lancaster</a>
+              <a href="./Liverpool.html">Liverpool</a>
+            </div>    
+        </div>
+        </div>
+</header>
+
+<!-- CAROUSEL CODE -->
+
+    <div class="main-carousel" id="main-carousel">
+        <ul class="slides" id="slides">
+            <li><img src="images/shutterstock_713989372.jpg" alt="Liver Building"></li>
+            <li><img src="images/lancaster beach.jpg" alt="Lancaster Beach"></li>
+            <li><img src="images/albert dock.jpg" alt="Chester"></li>
+        </ul>
+        <h1 class="carousel-title">Discover the North West</h1>
+        <a class="prev" id="prev" href="#">&#8810;</a>
+        <a class="next" id="next" href="#">&#8811;</a>
+    </div>
+
+
+<!-- SEARCH BOX -->
+
+
+<div class="searchwrapper">
+
+<form role="search" id="form">
+  <input type="search" id="query" name="q"
+   placeholder="Where would you like to visit?"
+   aria-label="Search through site content"></form>
+
+  <button>
+    <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+  </button>
+
+
+</div>
+
+
+<!-- map -->
+
+<div class="mapouter">
+  <div class="gmap_canvas">
+    <iframe width="645" height="271" id="gmap_canvas" src="https://maps.google.com/maps?q=Liverpool&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+    <br><style>.mapouter{position:center;text-align:center;height:271px;width:600px;}</style>
+    <style>.gmap_canvas {overflow:hidden;background:none!important;height:271px;width:600px;}</style></iframe></div></div>
+
+
+
+<!-- contact form -->
+
+
+    <div class="contactblockwrapper">
+      <div class="contact-us-title">
+        <p class="contact-us-big">CONTACT US</p>
+        <p>We can't wait to help your dreams come true in the scenic North West of England. Whether you're looking for a blustery coastal stay with views for miles or a bustling city break, we can help.</p>
+      </div>
+      
+      
+      <div class="contact-form">
+        <form>
+          <p>
+            <label for="firstname">First name:</label>
+            <input class="forminput" type="text" id="firstname" name="firstname" />
+          </p>
+
+          <p>
+            <label for="surname">Surname:</label>
+            <input class="forminput" type="text" id="surname" name="surname" />
+          </p>
+          <p>
+            <label for="interest">What are you interested in?</label>
+            <select class="forminput" id="interest" name="interest">
+            <option value="citybreaks">City breaks</option>
+            <option value="coastalstays">Coastal stays</option>
+            <option value="countryside">Countryside escapes</option>
+            <option value="livelynightlife">Lively nightlife</option>
+          </select>
+          </p>
+          
+           <p><label for="tellusmore">Tell us more...</label></p> 
+           <p> <textarea
+              id="tellusmore"
+              name="tellusmore"
+              placeholder="Tell us more about your ideal trip to the North West here..."
+              style="height: 50px"
+              cols="50"
+            ></textarea>
+           </div></p>
+
+
+            <button id="button1" type="submit">Submit your request</button>
+          
+        </form>
+      </div>
+      </div>
+    </div>
+  </body>
+
+<!-- FOOTER -->
+
+
+<footer>
+<div class="footer-container">
+<p class="footer-item header-item">Privacy policy</p>
+<p class="footer-item header-item">FAQs</p>
+<p class="footer-item header-item">Contact us</p>
+<p class="footer-item header-item">2022 &copy;</p>
+</div>
+</footer>
+</html>
