@@ -178,6 +178,10 @@
                 padding: 0 1.5rem;
                 text-align: justify;
             }
+            
+            .section-pic:hover {
+                opacity: 70%;
+            }
             /* ------------------------ footer css goes here --------------------- */
             
             .footer-container {
