@@ -5,173 +5,6 @@
 }
 
 
-/* ------------------ CAROUSEL CSS - emma ------------------ */
-
-.carousel-title {
-    position: absolute;
-    top: 0;
-    width: 80%;
-    margin-top: 8rem;
-    padding-left: 1rem;
-    font-size: 5rem;
-    font-weight: lighter;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 0.25rem;
-    justify-content: left;
-    color: #e4d6a7;
-    background-color: #9b2915;
-    border-radius: 0 2rem 2rem 0;
-    overflow: visible;
-}
-
-.main-carousel {
-    position: relative;
-    width: 100vw;
-    height: 80vh;
-    overflow: hidden;
-}
-
-.main-carousel ul {
-    position: relative;
-    list-style: none;
-    display: flex;
-    image-rendering: auto;
-    height: 80vh;
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-    transition: all 750ms ease;
-    left: 0;
-}
-
-.main-carousel ul li {
-    position: relative;
-    height: 80vh;
-    width: 100vw;
-    float: left;
-}
-
-.main-carousel ul li img {
-    width: 100vw;
-    height: inherit;
-    object-fit: cover;
-}
-
-.prev,
-.next {
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    top: 50%;
-    border-radius: 50%;
-    font-size: 2rem;
-    transform: translateY(-50%);
-    transition: all 750ms ease;
-}
-
-.prev {
-    left: 1rem;
-}
-
-.next {
-    right: 1rem;
-}
-
-
-/*-------------- SEARCH AND MAP CSS - clarissa ------------------------------- */
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.site-heading {
-    text-align: center;
-}
-
-form {
-    background-color: #4c4b63;
-    width: 300px;
-    height: 44px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    border-color: #4c4b63;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-input {
-    font: 16px system-ui;
-    color: #4c4b63;
-    height: 100%;
-    width: 100%;
-    border-radius: 25px;
-    border-color: #4c4b63;
-    padding: 6px 10px;
-}
-
-::placeholder {
-    color: #4c4b63;
-    opacity: 0.7;
-}
-
-search.button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-}
-
-svg {
-    color: #fff;
-    fill: currentColor;
-    width: 24px;
-    height: 24px;
-    padding: 10px;
-}
-
-.mapouter {
-    padding: 120px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-
-/* ------------------------ footer css goes here --------------------- */
-
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #9b2915;
-    color: #e7dec2;
-    padding: 0px;
-}
-
-.footer-item {
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-
 /* ----------------------- nav css goes here --------------------- */
 
 .header-container {
@@ -253,6 +86,169 @@ svg {
 }
 
 
+/* ------------------ CAROUSEL CSS - emma ------------------ */
+
+.carousel-title {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    margin-top: 6rem;
+    padding-left: 1rem;
+    font-size: 5rem;
+    font-weight: lighter;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.25rem;
+    justify-content: left;
+    color: #e4d6a7;
+    background-color: #9b2915;
+    border-radius: 0 2rem 2rem 0;
+    overflow: visible;
+}
+
+.main-carousel {
+    margin-top: 2rem;
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.main-carousel ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    image-rendering: auto;
+    height: 80vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+}
+
+.main-carousel ul li {
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    float: left;
+}
+
+.main-carousel ul li img {
+    width: 100vw;
+    height: inherit;
+    object-fit: cover;
+}
+
+.prev,
+.next {
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    font-size: 2rem;
+    transform: translateY(-50%);
+    transition: all 750ms ease;
+}
+
+.prev {
+    left: 1rem;
+}
+
+.next {
+    right: 1rem;
+}
+
+
+/*-------------- SEARCH AND MAP CSS - clarissa ------------------------------- */
+
+.search-form {
+    background-color: #514b23;
+    width: 30rem;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border-color: #514b23;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+input {
+    font: 16px system-ui;
+    color: #4c4b63;
+    height: 100%;
+    width: 90%;
+    border-radius: 25px;
+    border-color: #4c4b63;
+}
+
+
+/* ::placeholder {
+    color: #4c4b63;
+    opacity: 0.7;
+} */
+
+.search-button {
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+svg {
+    fill: currentColor;
+    width: 2rem;
+    height: 2rem;
+}
+
+.mapouter {
+    padding: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* search area */
+
+.searchwrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    background-color: #e4d6a7;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    width: 100vw;
+    color: #514b23;
+    padding: 30px;
+}
+
+input[type="search"] {
+    border: 0;
+    background-color: #fcfbf8;
+    color: #464b63;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    height: 2.75em;
+    border-radius: 4px;
+    width: 100%;
+    margin: 3px 0px 15px 0px;
+    padding-left: 5px;
+}
+
+
 /* ------------------------ contact form css here ------------------------ */
 
 .contactblockwrapper {
@@ -318,7 +314,6 @@ select {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     margin: 3px 0px 15px 0px;
-    padding: 5px;
     border-radius: 4px;
 }
 
@@ -372,39 +367,7 @@ textarea {
 }
 
 
-/* search area */
-
-.searchwrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    vertical-align: middle;
-    background-color: #e4d6a7;
-    font-family: "Montserrat", sans-serif;
-    font-size: large;
-    font-weight: bolder;
-    width: 100%;
-    color: #514b23;
-    padding: 30px;
-}
-
-input[type="search"] {
-    border: 0;
-    background-color: #fcfbf8;
-    color: #464b63;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    height: 2.75em;
-    border-radius: 4px;
-    width: 100%;
-    margin: 3px 0px 15px 0px;
-    padding-left: 5px;
-}
-
-
-/* location boxes */
+/* location boxes
 
 .location-container {
     display: -ms-flexbox;
@@ -445,4 +408,28 @@ input[type="search"] {
     margin-right: 20px;
     margin-bottom: 80px;
     border-radius: 10px;
+} */
+
+
+/* ------------------------ footer css goes here --------------------- */
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2915;
+    color: #e7dec2;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer-item {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
