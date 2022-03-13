@@ -14,34 +14,46 @@
 <body>
     <div class="grid-container">
         <section class="landing">
-            <div class="nav-bar">
-                <button>Home</button>
-            </div>
+            <header class="nav-bar">
+                <div class="header-container">
+                    <div class="dropbtn header-item">About North West Escapes</div>
+                    <div class="dropbtn header-item">Our ethos</div>
+                    <div class="dropbtn header-item">Become a member</div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Our locations</button>
+                        <div class="dropdown-content">
+                            <a href="#">Chester</a>
+                            <a href="#">Lancaster</a>
+                            <a href="#">Liverpool</a>
+                        </div>
+                    </div>
+            </header>
+
             <div class="hero">
                 <h1 class="main-title">Chester</h1>
                 <img src="images/angle chester clock.jpg" alt="chester clock tower" class="hero-image">
             </div>
             <div class="second-head">
-                <button class="scroll-button">Visit</button>
-                <button class="scroll-button">Stay</button>
-                <button class="scroll-button">Eat</button>
+                <a class="scroll-button" href="#visit">Visit</a>
+                <a class="scroll-button" href="#stay">Stay</a>
+                <a class="scroll-button" href="#eat">Eat</a>
             </div>
         </section>
-        <section class="visit">
+        <section class="visit" id="visit">
             <img src="images/chester sign.jpg" alt="chester sign">
             <div>
                 <h3>Visit</h3>
                 <p>There's so many places to visit...</p>
             </div>
         </section>
-        <section class="stay">
+        <section class="stay" id="stay">
             <div>
                 <h3>Stay</h3>
                 <p>Why not stay right in the centre of town</p>
             </div>
             <img src="images/chester cathedral.jpg" alt="placeholder">
         </section>
-        <section class="eat">
+        <section class="eat" id="eat">
             <img src="images/chester clock.jpg" alt="placeholder">
             <div>
                 <h3>Eat</h3>
@@ -49,11 +61,14 @@
             </div>
         </section>
         <footer>
-            <button>Linkedin</button>
-            <button>Facebook</button>
-            <button>Twitter</button>
+            <div class="footer-container">
+                <p class="footer-item">Privacy policy</p>
+                <p class="footer-item">FAQs</p>
+                <p class="footer-item">Contact us</p>
+                <p class="footer-item">2022 &copy;</p>
+            </div>
         </footer>
-    </div>
+        </div>
 </body>
 
 </html>
