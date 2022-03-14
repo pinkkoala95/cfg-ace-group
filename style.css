@@ -446,3 +446,10 @@ textarea {
     padding-right: 20px;
 }
 
+/* -- body copy --*/
+
+.body-copy {
+ font-family: "Montserrat", sans-serif;
+font-size: 18px;
+text-align: center;
+}
