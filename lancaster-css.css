@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #e7dec2;
+}
 /* ----------------------- nav css goes here --------------------- */
 
 .header-container {
@@ -107,34 +112,115 @@
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: none;
 }
 
-/*----------- header image css -------------------*/
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/castlelanc.jpg");
-  height: 85%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 50px;
+/*---- other ----*/
+
+.landing {
+  height: 100vh;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
-.hero-text {
+.hero {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  position: relative;
+  opacity: 70%;
+}
+
+.main-title {
+  font-size: 7rem;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 0.25rem;
+  padding-top: 5rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #9b2915;
+  text-shadow: 3px 3px #514b23;
+  font-family: "Montserrat", sans-serif;
 }
 
-/*---- card css ----*/
+.scroll-button {
+  padding: 0.5rem 4rem;
+  margin: 0 3rem;
+  display: inline-flex;
+  font-size: 1.5rem;
+  color: #e7dec2;
+  background-color: #9b2915;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
 
-.card {
-  border-color: #9b2915;
-  border: 1px;
+.scroll-button:hover {
+  background-color: #514b23;
+  color: #e7dec2;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.second-head {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.hero-image {
+  width: 100vw;
+  max-height: 90vh;
+  padding-bottom: 1rem;
+  object-fit: cover;
+}
+
+.section-header {
+  font-size: 3rem;
+}
+/* ----------------visit/stay/eat sections ------------------- */
+
+.section-container {
+  display: flex;
+  margin: 1rem;
+  padding-left: 0.5rem;
+  justify-content: center;
+  align-items: stretch;
+  width: 95vw;
+  height: 70vh;
+  overflow: auto;
+}
+
+.section-pic {
+  height: 70vh;
+  max-height: 70vh;
+  width: 50vw;
+  max-width: 50vw;
+  padding: 1rem;
+}
+
+.section-text {
+  align-items: flex-end;
+  padding: 0 1.5rem;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5px;
+  color: #514b23;
+  font-weight: bold;
+}
+
+.section-pic:hover {
+  opacity: 70%;
+}
+
+/* ---- hr line styling ---- */
+
+.hr-green {
+  border: 0.5px solid #514b23;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
