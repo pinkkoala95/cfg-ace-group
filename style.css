@@ -221,11 +221,12 @@ svg {
 }
 
 .mapouter {
-    padding: 120px;
-    display: block;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    overflow: hidden;
 }
 
 
