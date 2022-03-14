@@ -380,7 +380,7 @@ textarea {
 }
 
 
-/* location boxes
+/* location boxes */
 
 .location-container {
     display: -ms-flexbox;
@@ -446,3 +446,4 @@ textarea {
     padding-left: 20px;
     padding-right: 20px;
 }
+
