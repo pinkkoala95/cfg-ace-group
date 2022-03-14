@@ -379,7 +379,7 @@ textarea {
 }
 
 
-/* location boxes
+/* location boxes */
 
 .location-container {
     display: -ms-flexbox;
@@ -444,4 +444,12 @@ textarea {
     font-family: "Montserrat", sans-serif;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+/* -- body copy --*/
+
+.body-copy {
+ font-family: "Montserrat", sans-serif;
+font-size: 18px;
+text-align: center;
 }
