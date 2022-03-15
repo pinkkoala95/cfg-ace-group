@@ -1,6 +1,7 @@
             * {
                 box-sizing: border-box;
                 font-family: Montserrat, sans-serif;
+                font-weight: lighter;
             }
             
             body {
@@ -26,7 +27,7 @@
             }
             
             .header-item {
-                font-size: 10rem;
+                font-size: 12rem;
                 font-family: "Montserrat", sans-serif;
                 text-decoration: none;
             }
@@ -46,6 +47,7 @@
             
             .dropbtn {
                 font-family: "Montserrat", sans-serif;
+                font-weight: lighter;
                 background-color: #9b2915;
                 color: #e7dec2;
                 padding: 16px;
@@ -106,7 +108,7 @@
             }
             
             .main-title {
-                font-size: 4.5rem;
+                font-size: 5.5rem;
                 text-transform: uppercase;
                 margin: 0;
                 letter-spacing: 0.25rem;
