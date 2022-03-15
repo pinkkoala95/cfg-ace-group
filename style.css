@@ -175,6 +175,54 @@
 }
 
 
+/* -------------location tiles -----------*/
+
+.locationtiles-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 25.4rem;
+    height: 35rem;
+    padding: 0;
+    margin: 1rem;
+}
+
+.card-img-top {
+    width: 25rem;
+    height: 20rem;
+    padding-top: 0;
+    margin-top: 0;
+    object-fit: contain;
+}
+
+.card-title {
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.card-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+.btn-primary {
+    border-radius: 20px;
+    background-color: #514b23;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    color: #e7dec2;
+}
+
+
 /*-------------- SEARCH AND MAP CSS - clarissa ------------------------------- */
 
 .search-form {
