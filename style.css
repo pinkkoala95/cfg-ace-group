@@ -104,6 +104,22 @@
 
 /* ------------------ CAROUSEL CSS - emma ------------------ */
 
+.logo {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+}
+
+.logo-pic {
+    background-color: #514b23;
+    margin: 5rem;
+    width: 20rem;
+    height: 20rem;
+}
+
 .carousel-title {
     position: absolute;
     top: 0;
