@@ -1,296 +1,294 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .background-colour-container {
-    background-color: #e7dec2;
+  background-color: #e7dec2;
 }
-
 
 /* ----------------------- nav css goes here --------------------- */
 
 .header-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-color: #9b2915;
-    color: #e7dec2;
-    z-index: 100;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #9b2915;
+  color: #e7dec2;
+  z-index: 100;
 }
 
 .header-item {
-    font-size: 10rem;
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
+  font-size: 10rem;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
 .header-item a {
-    text-decoration: none;
-    color: #e7dec2;
-    padding-left: 20px;
-    padding-right: 20px;
+  text-decoration: none;
+  color: #e7dec2;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header-item:hover a {
-    color: #514b23;
-    font-weight: bold;
-    transition: 0.5s;
+  color: #514b23;
+  font-weight: bold;
+  transition: 0.5s;
 }
 
 .header-item:hover {
-    background-color: #e4d6a7;
-    color: #514b23;
-    font-weight: bold;
-    transition: 0.5s;
+  background-color: #e4d6a7;
+  color: #514b23;
+  font-weight: bold;
+  transition: 0.5s;
 }
 
 .dropbtn {
-    font-family: "Montserrat", sans-serif;
-    background-color: #9b2915;
-    color: #e7dec2;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    transition: 0.5s;
+  font-family: "Montserrat", sans-serif;
+  background-color: #9b2915;
+  color: #e7dec2;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  transition: 0.5s;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #e4d6a7;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    font-family: "Montserrat", sans-serif;
-    color: #514b23;
-    font-weight: bold;
+  display: none;
+  position: absolute;
+  background-color: #e4d6a7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  color: #514b23;
+  font-weight: bold;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-family: "Montserrat", sans-serif;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Montserrat", sans-serif;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #e4d6a7;
-    color: #514b23;
+  background-color: #e4d6a7;
+  color: #514b23;
 }
-
 
 /* ------------------ CAROUSEL CSS - emma ------------------ */
 
 .logo {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    z-index: 2;
-    width: 100%;
-    overflow: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
 }
 
 .logo-pic {
-    background-color: #514b23;
-    margin: 5rem;
-    width: 20rem;
-    height: 20rem;
-    overflow: hidden;
+  background-color: #514b23;
+  margin: 5rem;
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
 }
 
 .carousel-title {
-    position: absolute;
-    top: 0;
-    width: 80%;
-    margin-top: 6rem;
-    padding-left: 1rem;
-    font-size: 5rem;
-    font-weight: lighter;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 0.25rem;
-    justify-content: left;
-    color: #e4d6a7;
-    background-color: #9b2915;
-    border-radius: 0 2rem 2rem 0;
-    overflow: visible;
+  position: absolute;
+  top: 0;
+  width: 80%;
+  margin-top: 6rem;
+  padding-left: 1rem;
+  font-size: 5rem;
+  font-weight: lighter;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 0.25rem;
+  justify-content: left;
+  color: #e4d6a7;
+  background-color: #9b2915;
+  border-radius: 0 2rem 2rem 0;
+  overflow: visible;
 }
 
 .main-carousel {
-    margin-top: 2rem;
-    position: relative;
-    width: 100vw;
-    height: 80vh;
-    overflow: hidden;
+  margin-top: 2rem;
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
 }
 
 .main-carousel ul {
-    position: relative;
-    list-style: none;
-    display: flex;
-    image-rendering: auto;
-    height: 80vh;
-    width: 100vw;
-    padding: 0;
-    margin: 0;
-    transition: all 750ms ease;
-    left: 0;
+  position: relative;
+  list-style: none;
+  display: flex;
+  image-rendering: auto;
+  height: 80vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
 }
 
 .main-carousel ul li {
-    position: relative;
-    height: 80vh;
-    width: 100vw;
-    float: left;
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+  float: left;
 }
 
 .main-carousel ul li img {
-    width: 100vw;
-    height: inherit;
-    object-fit: cover;
+  width: 100vw;
+  height: inherit;
+  object-fit: cover;
 }
 
 .prev,
 .next {
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    top: 50%;
-    border-radius: 50%;
-    font-size: 2rem;
-    transform: translateY(-50%);
-    transition: all 750ms ease;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  transform: translateY(-50%);
+  transition: all 750ms ease;
 }
 
 .prev {
-    left: 1rem;
+  left: 1rem;
 }
 
 .next {
-    right: 1rem;
+  right: 1rem;
 }
-
 
 /* -------------location tiles -----------*/
 
 .location-tiles-head {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding-top: 2rem;
-    padding-left: 1.5rem;
-    font-family: Montserrat, sans-serif;
-    font-weight: lighter;
-    font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  font-size: 3rem;
+  color: #514b23;
 }
 
 .hr-location-tiles {
-    border: 0.5px solid #514b23;
-    width: 97%;
-    margin-left: 1rem;
+  border: 0.5px solid #514b23;
+  width: 97%;
+  margin-left: 1rem;
 }
 
 .locationtiles-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .card {
-    width: 30%;
-    height: 100%;
-    padding: 0;
-    margin: 1rem 1rem 1rem 1rem;
+  width: 30%;
+  height: 100%;
+  padding: 0;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 .card-img-top {
-    width: 100%;
-    height: 55%;
-    padding-top: 0;
-    margin-top: 0;
-    object-fit: cover;
-    overflow: auto;
+  width: 100%;
+  height: 55%;
+  padding-top: 0;
+  margin-top: 0;
+  object-fit: cover;
+  overflow: auto;
 }
 
 .card-title {
-    font-family: Montserrat, sans-serif;
-    font-weight: lighter;
-    font-size: 2.5rem;
-    overflow: auto;
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  overflow: auto;
+  color: #514b23;
 }
 
 .card-text {
-    font-family: Montserrat, sans-serif;
-    font-weight: lighter;
-    margin-bottom: 1rem;
-    height: 9rem;
-    overflow: scroll;
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+  height: 9rem;
+  overflow: scroll;
+  color: #514b23;
 }
 
 .btn-primary {
-    border-radius: 20px;
-    background-color: #514b23;
-    margin: 1rem 1rem 1rem 0rem;
-    padding: 1rem;
-    font-family: Montserrat, sans-serif;
-    font-weight: lighter;
-    text-decoration: none;
-    text-align: center;
-    color: #e7dec2;
-    overflow: auto;
+  border-radius: 20px;
+  background-color: #514b23;
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 1rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+  text-align: center;
+  color: #e7dec2;
+  overflow: auto;
 }
-
 
 /*-------------- SEARCH AND MAP CSS - clarissa ------------------------------- */
 
 .search-form {
-    background-color: #514b23;
-    width: 30rem;
-    height: 3rem;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    border-color: #514b23;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    position: relative;
+  background-color: #514b23;
+  width: 30rem;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  border-color: #514b23;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
 }
 
 input {
-    font: 16px system-ui;
-    color: #4c4b63;
-    height: 100%;
-    width: 90%;
-    border-radius: 25px;
-    border-color: #4c4b63;
+  font: 16px system-ui;
+  color: #4c4b63;
+  height: 100%;
+  width: 90%;
+  border-radius: 25px;
+  border-color: #4c4b63;
 }
-
 
 /* ::placeholder {
     color: #4c4b63;
@@ -298,244 +296,250 @@ input {
 } */
 
 .search-button {
-    all: unset;
-    cursor: pointer;
-    position: absolute;
-    right: 20px;
-    background-color: #fcfbf8;
-    top: 0;
+  all: unset;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  background-color: #fcfbf8;
+  top: 0;
 }
 
 svg {
-    fill: currentColor;
-    width: 2rem;
-    height: 2rem;
+  fill: currentColor;
+  width: 2rem;
+  height: 2rem;
 }
 
 .mapouter {
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
 }
-
 
 /* search area */
 
 .searchwrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    vertical-align: middle;
-    background-color: #e7dec2;
-    font-family: "Montserrat", sans-serif;
-    font-size: large;
-    font-weight: bolder;
-    width: 100vw;
-    color: #514b23;
-    padding: 30px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  vertical-align: middle;
+  background-color: #e7dec2;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  width: 100vw;
+  color: #514b23;
+  padding: 30px 30px 15px 30px;
 }
 
 input[type="search"] {
-    border: 0;
-    background-color: #fcfbf8;
-    color: #464b63;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    height: 2.75em;
-    border-radius: 4px;
-    width: 100%;
-    margin: 3px 0px 15px 0px;
-    padding-left: 5px;
+  border: 0;
+  background-color: #fcfbf8;
+  color: #464b63;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  height: 2.75em;
+  border-radius: 4px;
+  width: 100%;
+  margin: 3px 0px 15px 0px;
+  padding-left: 5px;
 }
-
 
 /* ------------------------ contact form css here ------------------------ */
 
 .contactblockwrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
-    background-color: #514b23;
-    font-family: "Montserrat", sans-serif;
-    font-size: large;
-    width: 100%;
-    color: #e4d6a7;
-    padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  background-color: #514b23;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  width: 100%;
+  color: #e4d6a7;
+  padding: 30px;
 }
 
 .contact-us-title {
-    padding-right: 0px;
-    font-size: 14px;
-    flex-basis: 28%;
-    text-align: right;
-    padding-top: 22px;
-    padding-bottom: 40px;
+  padding-right: 0px;
+  font-size: 14px;
+  flex-basis: 28%;
+  text-align: right;
+  padding-top: 22px;
+  padding-bottom: 40px;
 }
 
 .contact-us-big {
-    font-size: 40px;
-    padding-bottom: 15px;
+  font-size: 40px;
+  padding-bottom: 15px;
 }
 
 .contact-form {
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    align-content: stretch;
-    flex-basis: 28%;
-    font-size: 14px;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    padding-left: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  flex-basis: 28%;
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 30px;
 }
 
 .forminput {
-    border: 0;
-    background-color: #e7dec2;
-    color: #464b63;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    height: 1.75em;
-    border-radius: 4px;
-    width: 100%;
-    margin: 3px 0px 15px 0px;
+  border: 0;
+  background-color: #e7dec2;
+  color: #464b63;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  height: 1.75em;
+  border-radius: 4px;
+  width: 100%;
+  margin: 3px 0px 15px 0px;
 }
 
 select {
-    width: 100%;
-    background-color: #e7dec2;
-    color: #464b63;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    margin: 3px 0px 15px 0px;
-    border-radius: 4px;
+  width: 100%;
+  background-color: #e7dec2;
+  color: #464b63;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 3px 0px 15px 0px;
+  border-radius: 4px;
 }
 
 option {
-    color: #464b63;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
+  color: #464b63;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 textarea {
-    padding: 5px;
-    padding: 2px;
-    border: 0;
-    background-color: #e7dec2;
-    color: #464b63;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    border-radius: 4px;
-    width: 100%;
-    margin: 3px 0px 15px 0px;
+  padding: 5px;
+  padding: 2px;
+  border: 0;
+  background-color: #e7dec2;
+  color: #464b63;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+  width: 100%;
+  margin: 3px 0px 15px 0px;
 }
 
 #button1 {
-    background-color: #e4d6a7;
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    border-radius: 4px;
+  background-color: #e4d6a7;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  border-radius: 4px;
 }
 
 ::placeholder {
-    font-style: italic;
+  font-style: italic;
 }
 
 #button1:hover {
-    background-color: #9b2915;
-    color: #e7dec2;
-    cursor: pointer;
+  background-color: #9b2915;
+  color: #e7dec2;
+  cursor: pointer;
 }
 
 #button1:active {
-    background-color: #9b2915;
-    box-shadow: 2px 2px #e7dec2;
-    transform: translateY(4px);
+  background-color: #9b2915;
+  box-shadow: 2px 2px #e7dec2;
+  transform: translateY(4px);
 }
-
 
 /* ------------------------ footer css goes here --------------------- */
 
 .footer-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: stretch;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #9b2915;
-    color: #e7dec2;
-    padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9b2915;
+  color: #e7dec2;
+  padding: 20px 0px 20px 0px;
 }
 
 .footer-item {
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
 
 /* -- body copy --*/
 
 .body-copy {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
 }
-
 
 /* making location tiles and contact form more mobile accessible */
 
-@media (min-width:501px) and (max-width: 1047px) {
-    .locationtiles-container {
-        flex-direction: column;
-    }
-    .card {
-        width: 95%;
-    }
+@media (min-width: 501px) and (max-width: 1047px) {
+  .locationtiles-container {
+    flex-direction: column;
+  }
+  .card {
+    width: 95%;
+  }
 }
 
-@media (max-width:500px) {
-    .locationtiles-container {
-        flex-direction: column;
-    }
-    .card {
-        width: 95%;
-    }
-    .card-img-top {
-        height: auto;
-    }
-    .card-text {
-        height: 12rem
-    }
-    .location-tiles-head {
-        font-size: 2.5rem;
-    }
-    .logo-pic {
-        display: none;
-    }
-    .contactblockwrapper {
-        flex-direction: column;
-    }
+@media (max-width: 500px) {
+  .locationtiles-container {
+    flex-direction: column;
+  }
+  .card {
+    width: 95%;
+  }
+  .card-img-top {
+    height: auto;
+  }
+  .card-text {
+    height: 12rem;
+  }
+  .location-tiles-head {
+    font-size: 2.5rem;
+  }
+  .logo-pic {
+    display: none;
+  }
+  .contactblockwrapper {
+    flex-direction: column;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-primary:hover {
+  background-color: #9b2915;
+  color: #e7dec2;
+  font-weight: bold;
+  transition: 0.2s;
 }
