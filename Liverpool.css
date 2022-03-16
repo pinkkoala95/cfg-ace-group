@@ -41,7 +41,6 @@
             
             .header-item:hover a {
                 color: #514b23;
-                font-weight: bold;
                 transition: 0.5s;
             }
             
@@ -63,7 +62,6 @@
             .dropbtn:hover {
                 background-color: #e4d6a7;
                 color: #514b23;
-                font-weight: bold;
                 transition: 0.5s;
             }
             
@@ -76,7 +74,6 @@
                 z-index: 1;
                 font-family: "Montserrat", sans-serif;
                 color: #514b23;
-                font-weight: bold;
             }
             
             .dropdown-content a {
@@ -98,7 +95,6 @@
             .dropdown:hover .dropbtn {
                 background-color: #e4d6a7;
                 color: #514b23;
-                font-weight: bold;
             }
             /* --------hero banner -----------*/
             

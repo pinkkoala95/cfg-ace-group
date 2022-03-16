@@ -98,7 +98,6 @@
 .dropdown:hover .dropbtn {
     background-color: #e4d6a7;
     color: #514b23;
-    font-weight: bold;
 }
 
 
@@ -111,6 +110,7 @@
     justify-content: center;
     z-index: 2;
     width: 100%;
+    overflow: hidden;
 }
 
 .logo-pic {
@@ -118,6 +118,7 @@
     margin: 5rem;
     width: 20rem;
     height: 20rem;
+    overflow: hidden;
 }
 
 .carousel-title {
