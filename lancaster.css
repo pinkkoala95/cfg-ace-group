@@ -18,6 +18,9 @@ a {
   all: unset;
 }
 
+ul {
+  list-style-position: inside;
+}
 /* ----------------------- nav css goes here --------------------- */
 
 .header-container {
@@ -29,7 +32,7 @@ a {
   align-items: stretch;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #9b2915;
   color: #e7dec2;
   height: 50px;
@@ -105,10 +108,9 @@ a {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: stretch;
-
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #9b2915;
   color: #e7dec2;
   padding: 0px;
@@ -126,21 +128,14 @@ a {
 
 /*---- other ----*/
 
-.landing {
-  height: 100vh;
-  max-height: 100vh;
-  overflow: hidden;
-}
-
 .hero {
   text-align: center;
   position: relative;
-  opacity: 70%;
   padding-bottom: 0;
 }
 
 .main-title {
-  font-size: 7rem;
+  font-size: 5rem;
   text-transform: uppercase;
   margin: 0;
   letter-spacing: 0.25rem;
@@ -149,8 +144,8 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #9b2915;
-  text-shadow: 3px 3px #514b23;
+  color: #e7dec2;
+  text-shadow: 3px 3px #9b2915;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -171,8 +166,8 @@ a {
 }
 
 .scroll-button:hover {
-  background-color: #e7dec2;
-  color: #9b2915;
+  background-color: #514b23;
+  color: #e7dec2;
   font-weight: bold;
   transition: 0.2s;
 }
@@ -180,13 +175,12 @@ a {
 .second-head {
   text-align: center;
   padding: 1rem 1rem 1rem 1rem;
-  background-color: #514b23;
   margin-top: -5px;
 }
 
 .hero-image {
   width: 100vw;
-  max-height: 90vh;
+  max-height: 60vh;
   padding-bottom: -5px;
   object-fit: cover;
 }
@@ -198,19 +192,18 @@ a {
 
 .section-container {
   display: flex;
-
   justify-content: center;
   align-items: stretch;
-  width: 95vw;
+  max-width: 95vw;
   height: 70vh;
   overflow: auto;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .section-pic {
-  height: 70vh;
   max-height: 70vh;
-  width: 50vw;
-  max-width: 50vw;
+  max-width: 40vw;
 }
 
 .section-text {
@@ -218,9 +211,10 @@ a {
   padding: 0 1.5rem;
   text-align: justify;
   font-family: "Montserrat", sans-serif;
-  margin-top: 5px;
+  margin-top: -5px;
   color: #514b23;
   font-weight: bold;
+  font-size: 1vmax;
 }
 
 .section-pic:hover {
@@ -241,4 +235,15 @@ a {
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0 0 0;
+}
+
+.section-container-map {
+  margin: 5px 30px 30px 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
 }
