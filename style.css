@@ -507,7 +507,7 @@ textarea {
 
 /* making location tiles and contact form more mobile accessible */
 
-@media (min-width:321px) and (max-width: 768px) {
+@media (min-width:501px) and (max-width: 1047px) {
     .locationtiles-container {
         flex-direction: column;
     }
@@ -516,12 +516,15 @@ textarea {
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:500px) {
     .locationtiles-container {
         flex-direction: column;
     }
     .card {
         width: 95%;
+    }
+    .card-img-top {
+        height: auto;
     }
     .card-text {
         height: 12rem

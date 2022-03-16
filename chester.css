@@ -104,9 +104,7 @@ body {
 /* --------hero banner -----------*/
 
 .landing {
-    height: 100vh;
-    max-height: 100vh;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .hero {
@@ -177,7 +175,6 @@ body {
     justify-content: center;
     align-items: stretch;
     width: 95vw;
-    height: 70vh;
     overflow: auto;
 }
 
@@ -236,4 +233,38 @@ body {
     color: #514b23;
     font-weight: bold;
     transition: 0.5s;
+}
+
+@media (min-width:476px) and (max-width: 879px) {
+    .scroll-button {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .section-container {
+        flex-direction: column;
+    }
+    .section-pic {
+        width: 99%;
+        max-width: 99%;
+    }
+}
+
+@media (max-width:475px) {
+    .scroll-button {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .section-container {
+        flex-direction: column;
+    }
+    .section-pic {
+        width: 99%;
+        max-width: 99%;
+        height: auto;
+    }
+    .main-title {
+        font-size: 3rem;
+    }
 }
