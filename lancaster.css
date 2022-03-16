@@ -39,7 +39,7 @@ ul {
 }
 
 .header-item {
-  font-size: 13px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
@@ -49,6 +49,7 @@ ul {
   background-color: #e4d6a7;
   color: #514b23;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .dropbtn {
@@ -58,6 +59,7 @@ ul {
   padding: 16px;
   font-size: 13px;
   border: none;
+  cursor: pointer;
 }
 
 .dropdown {
@@ -75,7 +77,8 @@ ul {
   font-family: "Montserrat", sans-serif;
   color: #514b23;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .dropdown-content a {
@@ -84,6 +87,7 @@ ul {
   text-decoration: none;
   display: block;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 .dropdown-content a:hover {
