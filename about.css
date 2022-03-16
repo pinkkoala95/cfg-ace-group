@@ -104,9 +104,15 @@ body {
 /* --------hero banner -----------*/
 
 .landing {
-    height: 100vh;
     max-height: 100vh;
     overflow: hidden;
+}
+
+.hero-image {
+    width: 100vw;
+    max-height: 90vh;
+    padding-bottom: 1rem;
+    object-fit: cover;
 }
 
 .second-head {
@@ -123,6 +129,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    object-fit: cover;
     z-index: 2;
     width: 100%;
 }
@@ -135,7 +142,7 @@ body {
 }
 
 .about-head-container {
-    height: 3rem;
+    height: 5.5rem;
 }
 
 .about-head {
