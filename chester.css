@@ -114,6 +114,7 @@ body {
 
 .main-title {
     font-size: 5.5rem;
+    font-weight: bold;
     text-transform: uppercase;
     margin: 0;
     letter-spacing: 0.25rem;
@@ -123,7 +124,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #9b2915;
-    text-shadow: 3px 3px #514b23;
+    text-shadow: 3px 3px #e7dec2;
 }
 
 .second-head {
