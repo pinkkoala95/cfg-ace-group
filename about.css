@@ -289,6 +289,10 @@ body {
     height: fit-content;
 }
 
+.footer-container a {
+    color: #e7dec2;
+}
+
 .footer-item {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;

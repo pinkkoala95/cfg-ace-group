@@ -246,6 +246,10 @@ body {
     padding: 0;
 }
 
+.footer-container a {
+    color: #e7dec2;
+}
+
 .footer-item {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
