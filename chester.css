@@ -222,15 +222,20 @@ body {
     align-items: stretch;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #9b2915;
     color: #e7dec2;
+    padding: 0px;
 }
 
 .footer-item {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: none;
 }
 
 .footer-item:hover {
