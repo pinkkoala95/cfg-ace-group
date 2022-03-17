@@ -61,6 +61,7 @@
     border: none;
     transition: 0.5s;
     justify-content: center;
+    text-align: center;
 }
 
 .dropdown {
