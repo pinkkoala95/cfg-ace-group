@@ -221,6 +221,14 @@ body {
     overflow: hidden;
 }
 
+.section-container-map {
+    margin: 5px 30px 30px 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 
 /* ------------------------ footer css goes here --------------------- */
 

@@ -166,6 +166,14 @@ body {
     font-size: 3rem;
 }
 
+.section-container-map {
+    margin: 5px 30px 30px 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
 
 /* ----------------visit/stay/eat sections ------------------- */
 
