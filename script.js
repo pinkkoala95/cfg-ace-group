@@ -1,11 +1,10 @@
 // my js for the contact form to reset on click ------------------------------------------------------------------------------------------------------
 
-var contactForm = document.getElementById("button1");
+function resetForm() {
+  alert("Thank you, we'll be in touch soon!");
+  FormData.reset();
+}
 
-contactForm.addEventListener("submit", function handleSubmit(event) {
-    event.preventDefault();
-    FormData.reset();
-});
 
 // the js for the carousel --------------------------------------------------------------------------------------------------------------------
 
