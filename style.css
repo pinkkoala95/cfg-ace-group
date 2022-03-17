@@ -121,23 +121,6 @@
     overflow: hidden;
 }
 
-.carousel-title {
-    position: absolute;
-    top: 0;
-    width: 80%;
-    margin-top: 6rem;
-    padding-left: 1rem;
-    font-size: 5rem;
-    font-weight: lighter;
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 0.25rem;
-    justify-content: left;
-    color: #e4d6a7;
-    background-color: #9b2915;
-    border-radius: 0 2rem 2rem 0;
-    overflow: visible;
-}
-
 .main-carousel {
     margin-top: 2rem;
     position: relative;

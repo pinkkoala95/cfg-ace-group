@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: Montserrat, sans-serif;
     font-weight: lighter;
 }
@@ -112,18 +114,19 @@ body {
     position: relative;
 }
 
- .main-title {
-     font-size: 5.5rem;
-     text-transform: uppercase;
-     margin: 0;
-     letter-spacing: 0.25rem;
-     padding-top: 5rem;
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     color: #9b2915;
-     text-shadow: 3px 3px #514b23;
+.main-title {
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.25rem;
+    padding-top: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #9b2915;
+    text-shadow: 3px 3px #514b23;
 }
 
 .second-head {
@@ -147,11 +150,10 @@ body {
 }
 
 .scroll-button:hover {
-    background-color: #9b2915;
+    background-color: #514b23;
     color: #e7dec2;
     font-weight: bold;
-    text-decoration: underline;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .hero-image {
@@ -208,6 +210,7 @@ body {
 
 #map {
     padding: 1.5rem;
+    overflow: hidden;
 }
 
 
@@ -224,6 +227,7 @@ body {
     width: 100%;
     background-color: #9b2915;
     color: #e7dec2;
+    padding: 0;
 }
 
 .footer-item {
@@ -237,6 +241,7 @@ body {
     color: #514b23;
     font-weight: bold;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 @media (min-width:476px) and (max-width: 879px) {

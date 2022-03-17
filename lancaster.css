@@ -12,18 +12,6 @@ body {
     background-color: #e7dec2;
 }
 
-p {
-    padding: 0.5rem 0.5rem 0.5rem 0;
-}
-
-a {
-    all: unset;
-}
-
-ul {
-    list-style-position: inside;
-}
-
 
 /* ----------------------- nav css goes here --------------------- */
 
@@ -141,13 +129,24 @@ ul {
     margin-top: none;
 }
 
+.footer-item:hover {
+    background-color: #e4d6a7;
+    color: #514b23;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 
 /*---- other ----*/
+
+.landing {
+    overflow: visible;
+}
 
 .hero {
     text-align: center;
     position: relative;
-    padding-bottom: 0;
 }
 
 .main-title {
@@ -163,6 +162,11 @@ ul {
     color: #e7dec2;
     text-shadow: 3px 3px #9b2915;
     font-family: "Montserrat", sans-serif;
+}
+
+.second-head {
+    text-align: center;
+    padding: 0.5rem;
 }
 
 .scroll-button {
@@ -188,16 +192,10 @@ ul {
     transition: 0.2s;
 }
 
-.second-head {
-    text-align: center;
-    padding: 1rem 1rem 1rem 1rem;
-    margin-top: -5px;
-}
-
 .hero-image {
     width: 100vw;
-    max-height: 60vh;
-    padding-bottom: -5px;
+    max-height: 90vh;
+    padding-bottom: 1rem;
     object-fit: cover;
 }
 
@@ -258,8 +256,43 @@ ul {
     display: flex;
     align-content: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .scroll::-webkit-scrollbar {
     display: none;
+}
+
+@media (min-width:476px) and (max-width: 879px) {
+    .scroll-button {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .section-container {
+        flex-direction: column;
+    }
+    .section-pic {
+        width: 99%;
+        max-width: 99%;
+    }
+}
+
+@media (max-width:475px) {
+    .scroll-button {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .section-container {
+        flex-direction: column;
+    }
+    .section-pic {
+        width: 99%;
+        max-width: 99%;
+        height: auto;
+    }
+    .main-title {
+        font-size: 3rem;
+    }
 }
