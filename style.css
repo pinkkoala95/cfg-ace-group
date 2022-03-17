@@ -481,6 +481,10 @@ textarea {
     transform: translateY(4px);
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 
 /* ------------------------ footer css goes here --------------------- */
 

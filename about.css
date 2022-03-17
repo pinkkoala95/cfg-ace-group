@@ -267,6 +267,10 @@ body {
     color: #e7dec2;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 
 /* ------------------------ footer css goes here --------------------- */
 
