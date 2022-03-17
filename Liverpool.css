@@ -284,4 +284,7 @@ body {
     .main-title {
         font-size: 3rem;
     }
+    .footer-container {
+        flex-direction: column;
+    }
 }

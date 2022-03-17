@@ -336,4 +336,7 @@ body {
     .logo-hero {
         display: none;
     }
+    .footer-container {
+        flex-direction: column;
+    }
 }
