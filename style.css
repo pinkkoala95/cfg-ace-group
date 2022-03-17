@@ -538,4 +538,7 @@ textarea {
     .contactblockwrapper {
         flex-direction: column;
     }
+    .footer-container {
+        flex-direction: column;
+    }
 }
