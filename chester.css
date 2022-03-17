@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     font-family: Montserrat, sans-serif;
     font-weight: lighter;
 }
@@ -194,12 +193,21 @@ body {
     text-align: justify;
 }
 
+.section-paragraph {
+    padding-bottom: 1rem;
+}
+
+.ul {
+    padding: 2rem;
+}
+
 .section-pic:hover {
     opacity: 70%;
 }
 
 .section-header {
     margin-bottom: 0;
+    padding-top: 1rem;
 }
 
 .hr-green {
